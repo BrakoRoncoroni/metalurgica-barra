@@ -58,17 +58,19 @@ main{
 }
 .imgindex{
     img{
-        width: 90%;
+        width: 75%;
     }
 }
 .presentacion{
     font-size: xx-large;
+    margin: 20px;
 
 }
 .wslogo{
     width: 100%;
     position: fixed;
     justify-items: end;
+    bottom: 10px;
     img{
         margin-left: 90%;
         padding: 5px;
