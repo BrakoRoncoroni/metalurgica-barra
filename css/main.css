@@ -9,8 +9,6 @@
 
 header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 10px;
   background-color: #8c8c8c;
 }
@@ -19,21 +17,24 @@ header {
   display: flex;
   flex-direction: row;
   background-color: #1f1f1f;
-  height: 30px;
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
 }
 .menuitems div a {
   font-size: x-large;
   text-decoration: none;
   color: #999B9B;
 }
+.menuitems div a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
 
 .logo {
   height: 20vh;
-  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 main {
@@ -48,19 +49,19 @@ main {
   width: 80%;
   border-top: 2px solid #1f1f1f;
   border-bottom: 2px solid #1f1f1f;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin-left: 10%;
   margin-right: 10%;
 }
 .titulo h1 {
-  padding: 20px;
+  padding: 10px;
   font-size: xx-large;
   font-weight: 800;
   letter-spacing: 3px;
 }
 
-.imgindex img {
-  width: 75%;
+.carousel-item {
+  height: 75vh !important;
 }
 
 .presentacion {
@@ -103,6 +104,7 @@ footer {
 footer img {
   margin-top: 5px;
   height: 80px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
