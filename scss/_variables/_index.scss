@@ -8,7 +8,6 @@
 }
 header{
     display: flex;
-    margin-bottom: 10px;
     background-color: #8c8c8c;
 }
 .menuitems{
@@ -41,52 +40,102 @@ main{
     text-align:  center;
     flex: 1;
     justify-content: center;
-    
+    background-color: #c0c0c0;
 }
 .titulo{
+    position: absolute;
     width: 80%;
-    border-top: 2px solid #1f1f1f;
-    border-bottom: 2px solid #1f1f1f;
-    margin-bottom: 5px;
+    z-index: 10;
+    margin-top: 25vh;
     margin-left: 10%;
     margin-right: 10%;
+    color: whitesmoke;
+    text-shadow: 0px 10px 15px black;
         h1{
         padding: 10px;
-        font-size: xx-large;
+        font-size: 70px;
         font-weight: 800;
         letter-spacing: 3px;
           }
 }
 
+.carousel{
+    position: relative;
+}
 .carousel-item{
-    height: 75vh !important;
+    height: 80vh !important;
+    filter: brightness(0.7);
 }
-.presentacion{
-    font-size: xx-large;
-    margin: 20px;
-
-}
+// ------------------------------Logo flotante Whatsapp------------------------
 .wslogo{
     width: 100%;
     position: fixed;
     justify-items: end;
-    bottom: 10px;
+    bottom: 25px;
     img{
         margin-left: 90%;
         padding: 5px;
-        background-color: rgb(0, 155, 0);
+        background-color: #2bb63f;
         border-radius: 50%;
-        height: 80px;
-        width: 80px;
+        height: 65px;
+        width: 65px;
+        box-shadow: 0px 5px 10px rgb(104, 104, 104);
     }
     img:hover{
-        background-color: rgb(10, 208, 10);
+        background-color: #128C7E;
         padding: 8px;
-        height: 95px;
-        width: 95px;
+        height: 85px;
+        width: 85px;
         transition: 0.3s;
     }
 }
+
+.subtitulos{
+    font-size: 5vh;
+}
+
+// --------------------------------------Nuestros servicios------------------------------------
+.section-servicios{
+    margin-top: 45px;
+}
+.servicio{
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        height: 300px;
+        width: 400px;
+    }
+}
+.serv-texto{
+    width: 45%;
+    h3{
+        text-decoration: underline;
+    }
+}
+//--------------------------------Sobre nosotros-------------------------------------------------
+
+
+
+
+
+// --------------------------Contacto----------------------------------------------------------
+.indexcontacto{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+.indexbarra{
+    width: 45%;
+}
+
+
+// ----------------------------footer--------------------------------
 footer{
     color: #999B9B;
     background-color: #1f1f1f;

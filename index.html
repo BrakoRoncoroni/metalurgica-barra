@@ -1,66 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-<link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <title>Metalurgica Barra</title>
 </head>
+
 <body>
     <header>
-            <a href="index.html">
-                <img class="logo" src="img/logo.png" alt="Logotipo metalurgica Barra">
-            </a>
-            <div class="menuitems">
-                <div><a href="index.html">Inicio</a></div>
-                <div><a href="">Nuestros Servicios</a></div>
-                <div><a href="">Sobre Nosotros</a></div>
-                <div><a href="">Contacto</a></div>
-            </div>
+        <a href="index.html">
+            <img class="logo" src="img/logo.png" alt="Logotipo metalurgica Barra">
+        </a>
+        <div class="menuitems">
+            <div><a href="index.html">Inicio</a></div>
+            <div><a href="">Nuestros Servicios</a></div>
+            <div><a href="">Sobre Nosotros</a></div>
+            <div><a href="">Contacto</a></div>
+        </div>
     </header>
 
     <main>
-        <div class="titulo">
-            <h1>ESPECIALISTAS EN CORTE LASER Y PLEGADO DE CHAPA</h1>
+        <!-- carousel de inicio -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="titulo">
+                <h1>ESPECIALISTAS EN CORTE LASER Y PLEGADO DE CHAPA</h1>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2800">
+                    <img src="img/caruno.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2800">
+                    <img src="img/carados.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2800">
+                    <img src="img/cartres.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
         </div>
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="3000">
-      <img src="img/caruno.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="img/carados.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="img/cartres.webp" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-        <div class="presentacion">
-            <p>Desde 1990 acompañando a la industria metalurgica.</p>
-        </div>
+        <!-- logo flotante de whatsapp -->
         <div class="wslogo">
-            <a href="https://api.whatsapp.com/send?phone=5491134265116" target="_blank"><img src="img/wslogo.png" alt="logo en blanco y negro de whatsapp"></a>
+            <a href="https://api.whatsapp.com/send?phone=5491160576871" target="_blank"><img src="img/wslogo.png"
+                    alt="logo en blanco y negro de whatsapp"></a>
         </div>
+        <!-- Nuestros servicios -->
+        <section class="section-servicios">
+            <h2 class="subtitulos" >Nuestros Servicios</h2>
+            <div class="servicio">
+                <img src="img/imgservuno.jpg" alt="">
+                <div class="serv-texto"> 
+                    <h3>CORTE LASER DE CHAPA</h3>
+                    <h4>Realizamos cortes de alta precisión en chapas de distintos materiales como acero al carbono,
+                        acero inoxidable y aluminio. Gracias a la tecnología láser, obtenemos bordes limpios, exactitud
+                        milimétrica y una alta repetibilidad, lo que permite fabricar piezas complejas con excelente
+                        terminación.</h4>
+                </div>
+            </div>
+            <div class="servicio">
+                <div class="serv-texto">
+                    <h3>PLEGADO DE CHAPA</h3>
+                    <h4>Contamos con plegadoras CNC que garantizan dobleces exactos y consistentes según las
+                        especificaciones del cliente. Este servicio permite conformar piezas en 2D y 3D, adaptándonos a
+                        los requerimientos de cada proyecto.</h4>
+                </div>
+                <img src="img/imgservdos.jpg" alt="">
+
+            </div>
+            <div class="servicio">
+                <img src="img/imgservtres.jpg" alt="">
+                <div class="serv-texto">
+                    <h3>FABRICACION DE PIEZAS A MEDIDA</h3>
+                    <h4>Ofrecemos el desarrollo y fabricación de piezas metálicas personalizadas, tanto en pequeñas como grandes series. Trabajamos sobre planos provistos por el cliente o colaboramos en el diseño técnico de la pieza.</h4>
+                </div>
+            </div>
+            <div class="servicio">
+                <div class="serv-texto">
+                    <h3>ASESORAMIENTO TÉCNICO</h3>
+                    <h4>Nuestro equipo brinda soporte integral desde la planificación hasta la producción final, incluyendo asesoramiento en diseño, materiales y procesos de fabricación.</h4>
+                </div>
+                <img src="img/imgservcuatro.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- -----------------------------------------Sobre Nosotros---------------------------------------------- -->
+
+        <section class="sect-nosotros">
+
+            <h2 class="subtitulos">Sobre Nosotros</h2>
+
+
+            <img src="" alt="">
+             <div class="indexbarra">
+                <h2>Metalurgica Barra</h2>
+                <h4>Desde 1990, en Metalúrgica Barra trabajamos con seriedad, compromiso y pasión por la metalurgia. Nos
+                    especializamos en brindar soluciones duraderas, adaptadas a cada cliente, priorizando la calidad, la
+                    responsabilidad y el trato humano. Creemos en la industria argentina, en el trabajo bien hecho y en
+                    la confianza construida día a día. Si buscás una empresa confiable, con trayectoria y que entienda
+                    tus necesidades, contá con nosotros.</h4>
+            </div>
+        </section>
+
+        <!-- Seccion contacto -->
+        <section class="indexcontacto">
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.484007697351!2d-58.50907782533738!3d-34.54129875420258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6d7a92814d9%3A0x48329d4915a0e23a!2sMetalurgica%20Barra!5e0!3m2!1ses-419!2sar!4v1749176385209!5m2!1ses-419!2sar"
+                    width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="indexbarra">
+                <h2>Metalurgica Barra</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis. Voluptatibus expedita, neque voluptates sint, id repellat culpa magnam vero repudiandae laborum eveniet nostrum fugit ab, animi aliquam! Veniam, rerum.</h4>
+            </div>
+        </section>
     </main>
 
+
     <footer>
-        <img src="img/camima.png" alt="isologotipo de la CAMIMA: Camara de la Mediana y Pequeña Industria Metalurgica Argentina">
-        <p>"Metalurgica Barra" es una empresa miembro de la Camara de la Mediana y Pequeña Industria Metalurgica Argentina.</p>
+        <img src="img/camima.png"
+            alt="isologotipo de la CAMIMA: Camara de la Mediana y Pequeña Industria Metalurgica Argentina">
+        <p>"Metalurgica Barra" es una empresa miembro de la Camara de la Mediana y Pequeña Industria Metalurgica
+            Argentina.</p>
     </footer>
- 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
