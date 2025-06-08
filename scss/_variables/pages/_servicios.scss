@@ -1,0 +1,89 @@
+.encabezado{
+    height: 40vh;
+    background-color: #1c1920;
+    text-align: center;
+    align-content: end;
+    filter: brightness(0.7);
+    margin-bottom: 20px;
+    h1{
+        position: relative;
+        font-size: 100px;
+        color: whitesmoke;
+    }
+}
+// Pagina de inicio Nuestros Servicios
+.inicio-servtexto{
+    justify-content: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+.img-nuestserv{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.inicio-serviconos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    div{
+        width: 20%;
+        a{
+            text-decoration: none;
+            color: #1c1920;
+        }
+        img{
+            width: 50%;
+        }
+    }
+}
+.inicio-serviconos div:hover{
+    box-shadow: 0px 5px 5px rgb(67, 67, 67);
+}
+
+
+
+
+
+
+.mainserv{
+    display: flex;
+    width: 80%;
+}
+.menu-izq{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin: 20px;
+    border-right: 2px solid grey;
+    padding-right: 15vh;
+    div{
+        a{
+            text-decoration: none;
+            color: black;
+    img{
+        height: 150px;
+        width: 220px;
+    }
+        }
+    }
+}
+
+.menu-izq div:hover{
+    box-shadow: 0px 2px 5px 5px rgb(95, 95, 95);
+    transition: 0.3s ease-in-out;
+}
+
+// Seccion de informacion de servicios
+.info-der{
+    padding-left: 10%;
+    h2{
+        font-size: 70px;
+    }
+    p{
+        font-size: 25px;
+    }
+    img{
+        width: 85%;
+    }
+    
+}

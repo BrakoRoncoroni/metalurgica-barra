@@ -8,7 +8,18 @@
 }
 header{
     display: flex;
+    position: static;
     background-color: #8c8c8c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.ifhere{
+    padding: 10px;
+    color: #f6f6f6 !important;
+    font-size: xx-large !important;
 }
 .menuitems{
     display: flex;
@@ -46,7 +57,7 @@ main{
     position: absolute;
     width: 80%;
     z-index: 10;
-    margin-top: 25vh;
+    margin-top: 40vh;
     margin-left: 10%;
     margin-right: 10%;
     color: whitesmoke;
@@ -63,7 +74,7 @@ main{
     position: relative;
 }
 .carousel-item{
-    height: 80vh !important;
+    height: 95vh !important;
     filter: brightness(0.7);
 }
 // ------------------------------Logo flotante Whatsapp------------------------
@@ -91,7 +102,7 @@ main{
 }
 
 .subtitulos{
-    font-size: 5vh;
+    font-size: 10vh;
 }
 
 // --------------------------------------Nuestros servicios------------------------------------
@@ -107,6 +118,7 @@ main{
     img{
         height: 300px;
         width: 400px;
+        box-shadow: 0px 10px 20px black;
     }
 }
 .serv-texto{
@@ -114,6 +126,23 @@ main{
     h3{
         text-decoration: underline;
     }
+}
+.btn-info{
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:goldenrod;
+    a{
+        text-decoration: none;
+        color: #1f1f1f;
+    }
+}
+.btn-info:hover{
+    background-color: rgb(239, 168, 1);
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 5px 10px #1f1f1f;
+    transition: 0.3s ease-out;
 }
 //--------------------------------Sobre nosotros-------------------------------------------------
 
@@ -130,8 +159,19 @@ main{
     justify-content: space-around;
     margin: 15px;
 }
-.indexbarra{
-    width: 45%;
+.indexform{
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+    padding-top: 5vh;
+}
+
+.consulta{
+    height: 150px;
+}
+.enviar{
+    width: 60px;
 }
 
 
@@ -144,7 +184,6 @@ footer{
     font-size: large;
     margin: 0;
     padding: 10px;
-    flex: 1;
         img{
             margin-top: 5px;
             height: 80px;

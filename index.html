@@ -20,8 +20,8 @@
             <img class="logo" src="img/logo.png" alt="Logotipo metalurgica Barra">
         </a>
         <div class="menuitems">
-            <div><a href="index.html">Inicio</a></div>
-            <div><a href="">Nuestros Servicios</a></div>
+            <div><a class="ifhere" href="index.html">Inicio</a></div>
+            <div><a  href="pages/servicios/servicios.html">Nuestros Servicios</a></div>
             <div><a href="">Sobre Nosotros</a></div>
             <div><a href="">Contacto</a></div>
         </div>
@@ -34,13 +34,13 @@
                 <h1>ESPECIALISTAS EN CORTE LASER Y PLEGADO DE CHAPA</h1>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2800">
+                <div class="carousel-item active" data-bs-interval="2500">
                     <img src="img/caruno.webp" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2800">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="img/carados.webp" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="2800">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="img/cartres.webp" class="d-block w-100" alt="...">
                 </div>
             </div>
@@ -52,15 +52,16 @@
         </div>
         <!-- Nuestros servicios -->
         <section class="section-servicios">
-            <h2 class="subtitulos" >Nuestros Servicios</h2>
+            <h2 class="subtitulos">Nuestros Servicios</h2>
             <div class="servicio">
                 <img src="img/imgservuno.jpg" alt="">
-                <div class="serv-texto"> 
+                <div class="serv-texto">
                     <h3>CORTE LASER DE CHAPA</h3>
                     <h4>Realizamos cortes de alta precisión en chapas de distintos materiales como acero al carbono,
                         acero inoxidable y aluminio. Gracias a la tecnología láser, obtenemos bordes limpios, exactitud
                         milimétrica y una alta repetibilidad, lo que permite fabricar piezas complejas con excelente
                         terminación.</h4>
+                    <button class="btn-info"><a href="">Mas Info</a></button>
                 </div>
             </div>
             <div class="servicio">
@@ -69,6 +70,7 @@
                     <h4>Contamos con plegadoras CNC que garantizan dobleces exactos y consistentes según las
                         especificaciones del cliente. Este servicio permite conformar piezas en 2D y 3D, adaptándonos a
                         los requerimientos de cada proyecto.</h4>
+                    <button class="btn-info"><a href="">Mas Info</a></button>
                 </div>
                 <img src="img/imgservdos.jpg" alt="">
 
@@ -77,20 +79,25 @@
                 <img src="img/imgservtres.jpg" alt="">
                 <div class="serv-texto">
                     <h3>FABRICACION DE PIEZAS A MEDIDA</h3>
-                    <h4>Ofrecemos el desarrollo y fabricación de piezas metálicas personalizadas, tanto en pequeñas como grandes series. Trabajamos sobre planos provistos por el cliente o colaboramos en el diseño técnico de la pieza.</h4>
+                    <h4>Ofrecemos el desarrollo y fabricación de piezas metálicas personalizadas, tanto en pequeñas como
+                        grandes series. Trabajamos sobre planos provistos por el cliente o colaboramos en el diseño
+                        técnico de la pieza.</h4>
+                    <button class="btn-info"><a href="">Mas Info</a></button>
                 </div>
             </div>
             <div class="servicio">
                 <div class="serv-texto">
                     <h3>ASESORAMIENTO TÉCNICO</h3>
-                    <h4>Nuestro equipo brinda soporte integral desde la planificación hasta la producción final, incluyendo asesoramiento en diseño, materiales y procesos de fabricación.</h4>
+                    <h4>Nuestro equipo brinda soporte integral desde la planificación hasta la producción final,
+                        incluyendo asesoramiento en diseño, materiales y procesos de fabricación.</h4>
+                    <button class="btn-info"><a href="">Mas Info</a></button>
                 </div>
                 <img src="img/imgservcuatro.jpg" alt="">
             </div>
         </section>
 
         <!-- -----------------------------------------Sobre Nosotros---------------------------------------------- -->
-
+        <!-- 
         <section class="sect-nosotros">
 
             <h2 class="subtitulos">Sobre Nosotros</h2>
@@ -105,7 +112,7 @@
                     la confianza construida día a día. Si buscás una empresa confiable, con trayectoria y que entienda
                     tus necesidades, contá con nosotros.</h4>
             </div>
-        </section>
+        </section> -->
 
         <!-- Seccion contacto -->
         <section class="indexcontacto">
@@ -115,9 +122,13 @@
                     width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="indexbarra">
-                <h2>Metalurgica Barra</h2>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veritatis. Voluptatibus expedita, neque voluptates sint, id repellat culpa magnam vero repudiandae laborum eveniet nostrum fugit ab, animi aliquam! Veniam, rerum.</h4>
+
+            <div class="indexform">
+                <input type="text" class="nombre" name="nombre" placeholder="Ingrese su nombre">
+                <input type="text" class="mail" name="mail" placeholder="Ingrese su mail">
+                <input type="text" class="consulta" name="consulta" placeholder="Ingrese su consulta">
+                <button class="enviar">Enviar</button>
+
             </div>
         </section>
     </main>
