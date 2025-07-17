@@ -1,0 +1,66 @@
+@media (max-width: 768px){
+     header{
+        justify-content: center;
+        .menuitems{
+            display: none;
+        }
+    }
+    #carouselExampleAutoplaying{
+        display: none;
+    }
+
+.img-mobile{
+    display: block;
+    position: relative;
+    img{
+        object-fit: cover;
+        width: 100%;
+        filter: brightness(0.8);
+    }
+    h1{
+          position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.9rem;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+    }
+}
+
+.subtitulos{
+        font-size: 8vh;
+    }
+    .section-servicios{
+    margin-top: 1vh;
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        height: 70%;
+        width: 90%;
+        box-shadow: 0px 10px 20px black;
+    }
+}
+.servicio-inv{
+    flex-direction: column-reverse;
+}
+.serv-texto{
+    margin-top: 20px;
+    width: 85%;
+    h3{
+        text-decoration: underline;
+    }
+}
+.maps{
+    display: none;
+}
+.wslogo{
+    right: 50px;
+}
+}

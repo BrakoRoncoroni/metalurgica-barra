@@ -1,5 +1,5 @@
 .encabezado{
-    height: 40vh;
+    height: 20vh;
     background-color: #1c1920;
     text-align: center;
     align-content: end;
@@ -73,14 +73,14 @@
 // Seccion de informacion de servicios
 .info-der{
     padding-left: 10%;
-    h2{
-        font-size: 70px;
-    }
+    text-align: center;
     p{
         font-size: 25px;
+        padding-bottom: 30px;
     }
     img{
         width: 85%;
+        padding-bottom: 30px;
     }
     
 }

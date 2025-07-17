@@ -8,9 +8,8 @@
 }
 header{
     display: flex;
-    position: static;
+    position: sticky;
     background-color: #8c8c8c;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +40,7 @@ header{
     }
 }
 .logo{
-    height: 15vh;
+    height: 10vh;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -57,7 +56,7 @@ main{
     position: absolute;
     width: 80%;
     z-index: 10;
-    margin-top: 40vh;
+    margin-top: 20vh;
     margin-left: 10%;
     margin-right: 10%;
     color: whitesmoke;
@@ -74,9 +73,13 @@ main{
     position: relative;
 }
 .carousel-item{
-    height: 95vh !important;
+    height: 70vh !important;
     filter: brightness(0.7);
 }
+.img-mobile{
+    display: none;
+}
+
 // ------------------------------Logo flotante Whatsapp------------------------
 .wslogo{
     width: 100%;
@@ -146,10 +149,6 @@ main{
 }
 //--------------------------------Sobre nosotros-------------------------------------------------
 
-
-
-
-
 // --------------------------Contacto----------------------------------------------------------
 .indexcontacto{
     display: flex;
@@ -158,6 +157,12 @@ main{
     align-items: center;
     justify-content: space-around;
     margin: 15px;
+    div{
+        img{
+            height: 40px;
+            width: 40px;
+        }
+    }
 }
 .indexform{
     width: 40%;

@@ -1,0 +1,15 @@
+.nosmain{
+    margin: 30px;
+}
+.arbol{
+    display: flex;
+    justify-content: center;
+    div{
+        width: 80%;
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+}

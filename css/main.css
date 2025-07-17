@@ -9,9 +9,8 @@
 
 header {
   display: flex;
-  position: static;
+  position: sticky;
   background-color: #8c8c8c;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -43,7 +42,7 @@ header {
 }
 
 .logo {
-  height: 15vh;
+  height: 10vh;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -61,7 +60,7 @@ main {
   position: absolute;
   width: 80%;
   z-index: 10;
-  margin-top: 40vh;
+  margin-top: 20vh;
   margin-left: 10%;
   margin-right: 10%;
   color: whitesmoke;
@@ -79,8 +78,12 @@ main {
 }
 
 .carousel-item {
-  height: 95vh !important;
+  height: 70vh !important;
   filter: brightness(0.7);
+}
+
+.img-mobile {
+  display: none;
 }
 
 .wslogo {
@@ -161,6 +164,10 @@ main {
   justify-content: space-around;
   margin: 15px;
 }
+.indexcontacto div img {
+  height: 40px;
+  width: 40px;
+}
 
 .indexform {
   width: 40%;
@@ -194,7 +201,7 @@ footer img {
 }
 
 .encabezado {
-  height: 40vh;
+  height: 20vh;
   background-color: #1c1920;
   text-align: center;
   align-content: end;
@@ -267,15 +274,97 @@ footer img {
 
 .info-der {
   padding-left: 10%;
-}
-.info-der h2 {
-  font-size: 70px;
+  text-align: center;
 }
 .info-der p {
   font-size: 25px;
+  padding-bottom: 30px;
 }
 .info-der img {
   width: 85%;
+  padding-bottom: 30px;
+}
+
+.nosmain {
+  margin: 30px;
+}
+
+.arbol {
+  display: flex;
+  justify-content: center;
+}
+.arbol div {
+  width: 80%;
+}
+.arbol div img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+  header .menuitems {
+    display: none;
+  }
+  #carouselExampleAutoplaying {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+    position: relative;
+  }
+  .img-mobile img {
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(0.8);
+  }
+  .img-mobile h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .subtitulos {
+    font-size: 8vh;
+  }
+  .section-servicios {
+    margin-top: 1vh;
+  }
+  .servicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .servicio img {
+    height: 70%;
+    width: 90%;
+    box-shadow: 0px 10px 20px black;
+  }
+  .servicio-inv {
+    flex-direction: column-reverse;
+  }
+  .serv-texto {
+    margin-top: 20px;
+    width: 85%;
+  }
+  .serv-texto h3 {
+    text-decoration: underline;
+  }
+  .maps {
+    display: none;
+  }
+  .wslogo {
+    right: 50px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
