@@ -365,6 +365,95 @@ footer img {
   .wslogo {
     right: 50px;
   }
+  .encabezado {
+    height: 15vh;
+  }
+  .encabezado h1 {
+    font-size: 36px;
+  }
+  .inicio-servtexto {
+    padding: 0 15px;
+    text-align: center;
+  }
+  .inicio-servtexto p {
+    font-size: 16px;
+  }
+  .img-nuestserv {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+  .inicio-serviconos {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .inicio-serviconos div {
+    width: 90%;
+    text-align: center;
+  }
+  .inicio-serviconos div a {
+    display: block;
+    color: #1c1920;
+  }
+  .inicio-serviconos div a img {
+    width: 100%;
+    max-width: 300px;
+  }
+  .inicio-serviconos div a h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .mainserv {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .menu-izq {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: none;
+    padding-right: 0;
+    gap: 10px;
+  }
+  .menu-izq div {
+    width: 45%;
+  }
+  .menu-izq div a {
+    display: block;
+    text-align: center;
+  }
+  .menu-izq div a img {
+    width: 100%;
+    height: auto;
+  }
+  .info-der {
+    padding-left: 0;
+    text-align: center;
+  }
+  .info-der p {
+    font-size: 18px;
+  }
+  .info-der img {
+    width: 90%;
+  }
+  header .logo {
+    width: 70%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .menuitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .menuitems div a {
+    font-size: 18px;
+    padding: 5px 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
