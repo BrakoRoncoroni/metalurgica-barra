@@ -42,7 +42,7 @@ header {
 }
 
 .logo {
-  height: 10vh;
+  height: auto;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -215,6 +215,9 @@ footer img {
 }
 
 .inicio-servtexto {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
   justify-content: center;
   margin-bottom: 40px;
   border-bottom: 1px solid black;
@@ -275,10 +278,11 @@ footer img {
 .info-der {
   padding-left: 10%;
   text-align: center;
+  align-items: center;
 }
 .info-der p {
-  font-size: 25px;
-  padding-bottom: 30px;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 .info-der img {
   width: 85%;

@@ -13,6 +13,9 @@
 }
 // Pagina de inicio Nuestros Servicios---------------------------------------------
 .inicio-servtexto{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
     justify-content: center;
     margin-bottom: 40px;
     border-bottom: 1px solid black;
@@ -74,9 +77,10 @@
 .info-der{
     padding-left: 10%;
     text-align: center;
+    align-items: center;
     p{
-        font-size: 25px;
-        padding-bottom: 30px;
+        font-size: 30px;
+        padding-bottom: 10px;
     }
     img{
         width: 85%;
