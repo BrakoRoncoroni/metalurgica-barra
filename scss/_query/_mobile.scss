@@ -1,5 +1,8 @@
 @media (max-width: 768px){
      header{
+      display: flex;
+      position: relative;
+      height: auto;
         justify-content: center;
         .menuitems{
             display: none;
@@ -10,7 +13,8 @@
     }
 
 .logo {
-    width: 2vh;
+    height: 15vh;
+    width: 100%;
     margin-left: 30%;
     margin-right: 30%;
 }
