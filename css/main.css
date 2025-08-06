@@ -320,14 +320,14 @@ footer img {
     position: relative;
     height: auto;
     justify-content: center;
-    font-size: smaller !important;
+    font-size: small !important;
   }
   header .menuitems {
     display: flex;
     flex-direction: row;
   }
   .logo {
-    display: none;
+    display: none !important;
   }
   #carouselExampleAutoplaying {
     display: none;
