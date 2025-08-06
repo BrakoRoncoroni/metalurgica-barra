@@ -42,6 +42,7 @@ header {
 }
 
 .logo {
+  width: 15vh;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -311,8 +312,6 @@ footer img {
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
   header .menuitems {
@@ -322,9 +321,9 @@ footer img {
     display: none;
   }
   .logo {
-    max-height: 80px;
-    width: auto;
-    margin: 0 auto;
+    width: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .img-mobile {
     display: block;
