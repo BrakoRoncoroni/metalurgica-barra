@@ -40,8 +40,7 @@ header{
     }
 }
 .logo{
-    height: 10vh;
-    width: 10vh;
+
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -163,6 +162,11 @@ main{
             height: 40px;
             width: 40px;
         }
+    }
+}
+.contact-index{
+    div{
+        text-decoration: none;
     }
 }
 .indexform{

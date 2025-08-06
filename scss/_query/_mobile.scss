@@ -1,6 +1,8 @@
 @media (max-width: 768px){
-     header{
-        justify-content: center;
+     header{  
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
         .menuitems{
             display: none;
         }
@@ -12,7 +14,7 @@
 .logo {
   max-height: 80px;
   width: auto;
-  height: auto;
+  margin: 0 auto;
 }
 
 .img-mobile{

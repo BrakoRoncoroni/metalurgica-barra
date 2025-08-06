@@ -42,8 +42,6 @@ header {
 }
 
 .logo {
-  height: 10vh;
-  width: 10vh;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -168,6 +166,10 @@ main {
 .indexcontacto div img {
   height: 40px;
   width: 40px;
+}
+
+.contact-index div {
+  text-decoration: none;
 }
 
 .indexform {
@@ -309,6 +311,8 @@ footer img {
 
 @media (max-width: 768px) {
   header {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
   header .menuitems {
@@ -320,7 +324,7 @@ footer img {
   .logo {
     max-height: 80px;
     width: auto;
-    height: auto;
+    margin: 0 auto;
   }
   .img-mobile {
     display: block;
