@@ -322,8 +322,9 @@ footer img {
   }
   .logo {
     width: 5vh;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 5vh;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   .img-mobile {
     display: block;
