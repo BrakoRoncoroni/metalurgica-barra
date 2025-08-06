@@ -321,10 +321,9 @@ footer img {
     display: none;
   }
   .logo {
-    width: 5vh;
-    height: 5vh;
-    margin-left: 25px;
-    margin-right: 25px;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
   }
   .img-mobile {
     display: block;
