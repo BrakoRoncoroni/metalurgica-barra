@@ -20,7 +20,7 @@ header {
 .ifhere {
   padding: 10px;
   color: #f6f6f6 !important;
-  font-size: xx-large !important;
+  font-size: x-large !important;
 }
 
 .menuitems {
@@ -316,9 +316,11 @@ footer img {
     position: relative;
     height: auto;
     justify-content: center;
+    font-size: small !important;
   }
   header .menuitems {
-    display: none;
+    display: flex;
+    flex-direction: row;
   }
   #carouselExampleAutoplaying {
     display: none;

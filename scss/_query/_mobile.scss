@@ -1,11 +1,13 @@
 @media (max-width: 768px){
      header{
-      display: flex;
-      position: relative;
-      height: auto;
+        display: flex;
+        position: relative;
+        height: auto;
         justify-content: center;
+        font-size: small !important;
         .menuitems{
-            display: none;
+            display: flex;
+            flex-direction: row;
         }
     }
     #carouselExampleAutoplaying{
