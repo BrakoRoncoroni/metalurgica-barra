@@ -1,4 +1,4 @@
-@import '_variables/index';
-@import '_variables/pages/servicios';
-@import '_variables/pages/sobrenosotros';
-@import '_query/mobile';
+@use '_variables/index' as index;
+@use '_variables/pages/servicios' as servicios;
+@use '_variables/pages/sobrenosotros' as sobrenosotros;
+@use '_query/mobile' as mobile;

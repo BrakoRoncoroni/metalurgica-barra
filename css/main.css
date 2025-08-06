@@ -326,14 +326,11 @@ footer img {
     display: flex;
     flex-direction: row;
   }
-  #carouselExampleAutoplaying {
+  .logo {
     display: none;
   }
-  .logo {
-    height: 10vh;
-    width: 75%;
-    margin-left: 30%;
-    margin-right: 30%;
+  #carouselExampleAutoplaying {
+    display: none;
   }
   .img-mobile {
     display: block;
